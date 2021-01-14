@@ -1,0 +1,30 @@
+{
+    "name": "ntheye-theme",
+    "displayName": "ntheye-theme",
+    "description": "C++ color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nth-eye/VSCodeTheme"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ntheye Green",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ntheye-green-color-theme.json"
+            },
+            {
+                "label": "Ntheye Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ntheye-blue-color-theme.json"
+            }
+        ]
+    }
+}
