@@ -6,6 +6,7 @@
     "engines": {
         "vscode": "^1.52.0"
     },
+    "publisher": "nth-eye",
     "repository": {
         "type": "git",
         "url": "https://github.com/nth-eye/VSCodeTheme"
