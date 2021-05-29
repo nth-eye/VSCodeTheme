@@ -223,10 +223,10 @@
         "button.hoverBackground":                   "#767f87",
         "button.foreground":                        "#ffffff",
 
-        "gitDecoration.modifiedResourceForeground":     "#6189bb",
-        "gitDecoration.ignoredResourceForeground":      "#52576e",
-        "gitDecoration.untrackedResourceForeground":    "#1ABC9C",
-        "gitDecoration.conflictingResourceForeground":  "#C33C4A",
+        "gitDecoration.modifiedResourceForeground":     "#ed812e", // "#6189bb",
+        "gitDecoration.ignoredResourceForeground":      "#51585e", // "#52576e",
+        "gitDecoration.untrackedResourceForeground":    "#ff2957", // "#1ABC9C",
+        "gitDecoration.conflictingResourceForeground":  "#fb4934", // "#C33C4A",
 	},
 	"tokenColors": [
 		{
@@ -310,7 +310,8 @@
                 "entity.name.type.template",
                 "entity.name.namespace",
                 "punctuation.separator.namespace",
-                "keyword.control.directive"
+                "keyword.control.directive",
+                "keyword.operator.c",
             ],
             "settings": {
                 "foreground": "#e8e7dc"
@@ -321,7 +322,7 @@
             "scope": [
                 "storage.type",
                 "storage.type.template.argument.class",
-                "meta.template.definition.cpp",
+                "meta.template.definition",
             ],
             "settings": {
                 "foreground": "#a9aaab"
@@ -330,7 +331,7 @@
         {
             "name": "Dark Grey",
             "scope": [
-                "storage.type.built-in.primitive.cpp",
+                "storage.type.built-in.primitive",
                 "storage.type.template.argument",
                 "storage.type.primitive",
                 "entity.name.type",
