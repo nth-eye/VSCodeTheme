@@ -1,8 +1,8 @@
 {
-    "name": "ntheye-theme",
-    "displayName": "ntheye-theme",
+    "name": "nth-eye-theme",
+    "displayName": "nth-eye-theme",
     "description": "C++ color theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -14,18 +14,30 @@
     "categories": [
         "Themes"
     ],
+    "galleryBanner": {
+        "color": "16161b",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "Ntheye Green",
+                "label": "nth-eye green",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ntheye-green-color-theme.json"
+                "path": "./themes/nth-eye-green-color-theme.json"
             },
             {
-                "label": "Ntheye Blue",
+                "label": "nth-eye blue",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ntheye-blue-color-theme.json"
+                "path": "./themes/nth-eye-blue-color-theme.json"
+            },
+            {
+                "label": "nth-eye flesh",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nth-eye-flesh-color-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.88.0"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "Ntheye Blue",
+    "name": "nth-eye green",
     "author": "nth-eye",
     "maintainers": [
         "nth-eye <ilya.makarov.592@gmail.com>"
@@ -332,7 +332,7 @@
                 "variable"
             ],
             "settings": {
-                "foreground": "#92a9fd"// "#9AA7D6"
+                "foreground": "#1ABC9C"
             }
         },
         {
@@ -341,7 +341,7 @@
                 "variable.other.enummember"
             ],
             "settings": {
-                "foreground": "#92a9fd"
+                "foreground": "#1ABC9C"
             }
         },
         {
@@ -360,7 +360,7 @@
                 "variable.other.global"
             ],
             "settings": {
-                "foreground": "#5e7adf"
+                "foreground": "#078c7c"
             }
         },
         {
@@ -369,7 +369,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#D6BB9A"
+                "foreground":"#ca9b55"
             }
         },
         // {
@@ -378,7 +378,7 @@
         //         "variable.other.property"
         //     ],
         //     "settings": {
-        //         "foreground": "#9AA7D6"
+        //         "foreground": "#1ABC9C"
         //     }
         // },
         /*  Makrup */
@@ -389,7 +389,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#F99157"
+				"foreground": "#F99157"
             }
         },
         {
@@ -399,7 +399,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#89B3E7"
+				"foreground": "#89B3E7"
             }
         },
         {
@@ -408,39 +408,39 @@
                 "markup.list"
             ],
             "settings": {
-                "foreground": "#879FD1"
+				"foreground": "#879FD1"
             }
         },
         {
-            "name": "Markup - Underline",
-            "scope": [
+			"name": "Markup - Underline",
+			"scope": [
                 "markup.underline"
             ],
-            "settings": {
-                "fontStyle": "underline",
-                "foreground": "#5e7adf"
-            }
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#0f8976"
+			}
         },
         {
-            "name": "Markup - Link Title",
-            "scope": [
-                "string.other.link.title"
-            ],
-            "settings": {
-                "foreground":"#92a9fd"
-            }
+			"name": "Markup - Link Title",
+			"scope": [
+				"string.other.link.title"
+			],
+			"settings": {
+				"foreground": "#1ABC9C"
+			}
         },
         {
-            "name": "HTML Text, ENV String",
-            "scope": [
-                "text.html",
-                "text.plain",
-                "source.env",
-                "meta.tag meta.jsx.children"
-            ],
-            "settings": {
-                "foreground": "#AFBAD4"
-            }
+			"name": "HTML Text, ENV String",
+			"scope": [
+				"text.html",
+				"text.plain",
+				"source.env",
+				"meta.tag meta.jsx.children"
+			],
+			"settings": {
+				"foreground": "#AFBAD4"
+			}
         },
         /* JSON */
         {
@@ -454,7 +454,7 @@
             "name": "JSON key level 2",
             "scope": "meta meta.structure.dictionary.value.json support.type.property-name.json",
             "settings": {
-                "foreground": "#92a9fd"
+                "foreground": "#1ABC9C"
             }
         },
         // {
